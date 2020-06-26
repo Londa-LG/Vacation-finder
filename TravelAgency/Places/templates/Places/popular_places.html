@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vacation Plans</title>
+
+     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar-fixed">
+            <nav class="blue">
+                <div class="container">
+                    <div class="nav-wrapper" >
+                        <a href="/" class="brand-logo center">Vacation Finder</a>
+                    </div>
+                 </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="row">
+        {% for events in places01 %}
+            <div class="col m12 l4">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">{{events.Name}}</span>
+                        <p>{{events.Summery}}</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#No" class="modal-trigger">View Plan</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+
+        <div class="row">
+        {% for events in places02 %}
+            <div class="col m12 l4">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">{{events.Name}}</span>
+                        <p>{{events.Summery}}</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#No" class="modal-trigger">View Plan</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+
+        <div class="row">
+        {% for events in places03 %}
+            <div class="col m12 l4">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">{{events.Name}}</span>
+                        <p>{{events.Summery}}</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#No" class="modal-trigger">View Plan</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+
+        <div class="modal" id="No">
+            <div class="modal-content">
+                    <h4>Lorem ipsum.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Animi architecto laborum nostrum quod voluptatibus. At.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class=" page-footer section blue darken-2 white-text center">
+        <p class="flow-text">Vacation Finder &copy; 2020 </p>
+    </footer>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+
+<script>
+    $(document).ready(function(){
+        $('.modal').modal();
+    });
+ </script>
+</body>
+</html>
