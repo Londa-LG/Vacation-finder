@@ -23,7 +23,6 @@ Vacation Finder is an advertising platform for travel agents.
   4. Use the link to contact Travel Agent
 
 ### Dependencies
-* Pillow
 * django
 
 ### Future Features
