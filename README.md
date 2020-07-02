@@ -1,4 +1,4 @@
-An advertising platform for travel agent.
+Vacation Finder is an advertising platform for travel agent.
  
 ## How to run the website
 1. Download all the App files.
