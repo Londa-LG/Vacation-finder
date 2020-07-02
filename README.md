@@ -1,11 +1,12 @@
-Vacation Finder is an advertising platform for travel agent.
+# Description
+Vacation Finder is an advertising platform for travel agents.
  
 ## How to run the website
 1. Download all the App files.
 2. Install all the dependencies. 
 3. cd to the TravelAgency folder.
 4. Run a "python manage.py runserver" command.
-5. View website on your webbrowser of choice at http://127.0.0.1:8000/
+5. View website on your web browser of choice at http://127.0.0.1:8000/
 
 ## How to use the website
 * As a Travel Agent
@@ -19,12 +20,13 @@ Vacation Finder is an advertising platform for travel agent.
   1. Visit http://127.0.0.1:8000/
   2. Use the Navbar to find the Popular places section
   3. Click on the package you like
-  4. Use link to contact Travel Agent
+  4. Use the link to contact Travel Agent
 
 ### Dependencies
 * Pillow
 * django
 
 ### Future Features
-* social media style profile accounts for Travel Agents and Users
-* Microsoft word like editor for Travel Agents
+* A social media style profile accounts for Travel Agents and Users.
+* A text editor for Travel Agents.
+
