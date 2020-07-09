@@ -29,4 +29,12 @@ Vacation Finder is an advertising platform for travel agents.
 * A social media style profile accounts for Travel Agents and Users.
 * A text editor for Travel Agents.
 
-![](relative/images/Screenshot_(37).png)
+### Screenshots
+
+## On large screens
+![](Screenshot_(37).png)
+![](Screenshot_(39).png)
+![](Screenshot_(40).png)
+## On small screens
+![](Screenshot_(43).png)
+![](Screenshot_(44).png)
